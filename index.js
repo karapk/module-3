@@ -47,3 +47,13 @@ const easyOddArray = numbers.filter((num) =>  num % 2 !== 0);
 
 
 console.log(easyOddArray);
+
+//MAP EXAMPLE
+
+const newNewArray = numbers.map((num) => num + 1)
+
+console.log(newNewArray);
+
+const total = numbers.reduce((sum, num) => sum + num );
+
+console.log(total);
